@@ -4,61 +4,62 @@ First Repository
 Hello! My name is Christie and I live in Rhode Island.
 
 
-// assignment 2
-//alert("HelloWorld");
-//console.log("Changing the output");
 
-//let Favoritefruit = "apples";
-//console.log("your favorite fruit is " + Favoritefruit);
+ assignment 2
+alert("HelloWorld");
+console.log("Changing the output");
 
-//let favoritecolor = prompt("What is your favorite color?");
-//console.log("To confirm your favorite color is " + favoritecolor);
+let Favoritefruit = "apples";
+console.log("your favorite fruit is " + Favoritefruit);
 
-//let UserName = prompt("What is your name?");
-//console.log("Hello, welcome " + UserName);
+let favoritecolor = prompt("What is your favorite color?");
+console.log("To confirm your favorite color is " + favoritecolor);
 
-//assignment3
+let UserName = prompt("What is your name?");
+console.log("Hello, welcome " + UserName);
 
-//let Favoritefood = prompt("What is your favorite food?")
-//if (Favoritefood === "pizza") {
-//  console.log("Duck loves pizza too!")
-//}else{
-//  console.log("Ok")
-//}
+assignment3
 
-//Coin Flip assignmentl
+let Favoritefood = prompt("What is your favorite food?")
+if (Favoritefood === "pizza") {
+  console.log("Duck loves pizza too!")
+}else{
+  console.log("Ok")
+}
 
-//let play = prompt("Heads or Tails?")
+Coin Flip assignmentl
 
-//let randomNumber = Math.random()
-//let result = ""
-//if(randomNumber < 0.5) {
-//  result = "Heads"
-//} else {
-//   result = "Tails"
-//}
-//console.log("The coin shows" + result)
-//if(play === result) {
-//console.log("You won!")
-//} else{
-// console.log("you lost!")
-//}
+let play = prompt("Heads or Tails?")
 
-// Assignment 4
+let randomNumber = Math.random()
+let result = ""
+if(randomNumber < 0.5) {
+  result = "Heads"
+} else {
+   result = "Tails"
+}
+console.log("The coin shows" + result)
+if(play === result) {
+console.log("You won!")
+} else{
+ console.log("you lost!")
+}
 
-//function greet(name) {
-//  return "hello " + name
-//}
+ Assignment 4
 
-//console.log(greet("Christie"))
-//console.log(greet("Jennifer"))
-//console.log(greet("Joeseph"))
+function greet(name) {
+return "hello " + name
+}
 
-//function area(width, height){
-//  return width * height
-//}
-//console.log(area(3,4))
-//console.log(area(5,6))
+console.log(greet("Christie"))
+console.log(greet("Jennifer"))
+console.log(greet("Joeseph"))
+
+function area(width, height){
+  return width * height
+}
+console.log(area(3,4))
+console.log(area(5,6))
 
 function FlipCoin() {
   let randomNum = Math.random();
@@ -88,3 +89,14 @@ if (callFlip(userGuess)) {
 } else {
   console.log("You Lost.");
 }
+
+
+assignment 5
+let numberToWord = prompt("Pick 1 or 2");
+if (numberToWord === "1") {
+  console.log("That number is One");
+} else {
+  console.log("That Number is Two");
+}
+
+this is def wrong
